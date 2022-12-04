@@ -2,6 +2,9 @@ body {
     font-family: 'Nunito Sans', sans-serif;
     margin: 0 auto;
 }
+body * {
+    box-sizing: border-box;
+}
 .container{
     max-width: 1250px;
     margin: 0 auto;
@@ -49,4 +52,59 @@ color: #E3B873;
     text-decoration-line: underline;
     color: #E3B873;
     margin-right: 45px;
+}
+.block1 {
+    background-image: url(../image/block1.jpg);
+    background-size: cover;
+    height: 707px;
+    padding-top: 194px;
+    position: relative;
+}
+.title {
+    margin: 0;
+    font-family: 'Yeseva One', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-right: 628px;
+    margin-bottom: 19px;
+
+}
+.block1-container {
+    position: relative;
+    z-index: 1;
+}
+.block1-overlay {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .7);
+}
+.block1-text {
+    color:#FFFFFF;
+    margin-right: 800px ;
+} 
+.left-button {
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.3);
+    border-radius: 2px;
+    padding: 20px 42px;
+}
+.right-buttom {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 19px 23px;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: center;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 2px;
 }
