@@ -27,6 +27,7 @@ color: #E3B873;
     justify-content: space-between;
     height: 83px;
     align-items: center;
+    white-space: nowrap;
 }    
 .header-navigation {
     list-style: none;
@@ -38,4 +39,14 @@ color: #E3B873;
 .header-navigation_item a {
     text-decoration: none;
     color: white;
+}
+.tel {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: right;
+    text-decoration-line: underline;
+    color: #E3B873;
+    margin-right: 45px;
 }
