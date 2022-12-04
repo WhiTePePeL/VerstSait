@@ -6,7 +6,7 @@ body * {
     box-sizing: border-box;
 }
 .container{
-    max-width: 1250px;
+    max-width: 1440px;
     margin: 0 auto;
 }
 .logo {
@@ -91,9 +91,7 @@ color: #E3B873;
     margin-right: 800px ;
 } 
 .left-button {
-    background: #E3B873;
     box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.3);
-    border-radius: 2px;
     padding: 20px 42px;
 }
 .right-buttom {
@@ -179,6 +177,12 @@ color: #E3B873;
     float: left;
 }
 .contaiter-block2 {
-    max-width: 1250px;
+    max-width: 1440px;
     margin: 0 auto;
+}
+.right_teg {
+    float: left;
+}
+.left_teg {
+    float: right;
 }
