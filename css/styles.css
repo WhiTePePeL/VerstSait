@@ -111,7 +111,6 @@ color: #E3B873;
     background-color: black;
     background-size: cover;
     height: 1074px;
-    padding-top: 107px;
     position: relative;
 }
 .tag1 {
@@ -120,7 +119,10 @@ color: #E3B873;
    display: flex;
    margin-left: 626px;
    margin-bottom: 53px;
-   list-style: none;   
+   list-style: none; 
+   margin-top: 0;
+   padding-top: 107px;
+
 }
 .tag1-item {
     color: rgba(227, 184, 115, 1);
@@ -176,13 +178,52 @@ color: #E3B873;
     position: relative;
     float: left;
 }
-.contaiter-block2 {
-    max-width: 1440px;
-    margin: 0 auto;
-}
 .right_teg {
-    float: left;
+    float: right;
 }
 .left_teg {
-    float: right;
+    float: left;
+}
+.stre {
+    margin-top: 300px;
+}
+.oncontrl {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.block3 {
+    background-size: cover;
+    height: 1074px;
+    position: relative;
+    margin-top: -300px;
+}
+.camera {
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em;
+    display: inline-flex;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.image-block3 {
+    margin-top: 72px;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    overflow: auto;
+}
+.image-filterBlok3 {
+    
 }
