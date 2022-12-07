@@ -202,7 +202,7 @@ color: #E3B873;
     position: relative;
     margin-top: -300px;
 }
-.camera {
+.svg {
     margin-left: auto;
     margin-right: auto;
     width: 6em;
@@ -223,7 +223,8 @@ color: #E3B873;
     align-content: center;
     justify-content: center;
     overflow: auto;
+  
 }
-.image-filterBlok3 {
-    
+.img-filtr {
+    filter: brightness(0.2)
 }
