@@ -107,8 +107,10 @@ color: #E3B873;
     border-radius: 2px;
     font-family: 'Nunito Sans', sans-serif;
 }
-.block2 {
+.block2-container {
     background-color: black;
+}
+.block2 {
     background-size: cover;
     height: 1074px;
     position: relative;
@@ -227,4 +229,38 @@ color: #E3B873;
 }
 .img-filtr {
     filter: brightness(0.2)
+}
+hr {
+    width: 60px;
+    border: 1px solid rgb(227, 184, 115);
+    margin-top: 62px;
+}
+.text-block3 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 37px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 681px;
+    margin: auto;
+}
+.sub {
+    width: 200px;
+    height: 51px;
+    font-size: 11px;
+    
+}
+.info-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 38px;
+    margin-top: 65px;
+    align-items: center;
+    column-gap: 38px;
+}
+.info-form div:nth-of-type(4) {
+    grid-column: 1/4;
+    margin: 0 auto;
 }
