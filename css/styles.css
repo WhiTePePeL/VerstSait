@@ -259,8 +259,31 @@ hr {
     margin-top: 65px;
     align-items: center;
     column-gap: 38px;
+    margin-left: 430px;
 }
 .info-form div:nth-of-type(4) {
     grid-column: 1/4;
     margin: 0 auto;
 }
+.inp label, input {
+    font-family: Nunito;
+    font-size: 14px;
+    line-height: 23px;
+    outline: 0;
+    color: rgba(54, 54, 54, 0.5);
+}
+*{
+    border: none;
+}
+.info-form, input {
+    width: 231px;
+}
+.inp input {
+    border-bottom: 1px solid rgba(54, 54, 54, 0.3);
+}
+.info-form div:nth-of-type(3) {
+    text-align: end;
+  }
+  .inp input::placeholder {
+    color: #363636;
+  }
