@@ -385,6 +385,11 @@ hr {
     gap: 30px;
     padding-bottom: 100px;
   }
+  .block4 {
+    display: flex;
+    flex-direction: column;
+    padding: 129px 0px 0px;
+    align-items: center;}
 
   .title-block4 ul {
     padding-left: 10px;
@@ -433,6 +438,15 @@ hr {
     position: absolute;
     top: 300px;
     padding: 20px 90px 25px 35px;
+}
+.block4 h3, .molot, .order {
+    grid-column: 1 / 4;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 20px;
 }
 .order {
     display: grid;
@@ -532,4 +546,26 @@ label.checkbox.white {
     font-family: 'Nunito Sans';
     font-size: 13px;
     padding: 0ch;
+}
+.piggy {
+    align-self: end;
+    margin: 15px 258px;
+}
+.piggy div {
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+}
+.piggy img {
+    box-shadow: rgb(237 192 120 / 20%) 0px 10px 20px;
+}
+.piggy div p {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #E3B873;
+    text-shadow: 0px 3px 10px rgb(227 184 115 / 15%);
+    text-align: left;
 }
