@@ -732,7 +732,7 @@ img.img4 {
     transform: scaleX(-1);
     width: 720px;
 }
-.block7>.container {
+.block7 {
     background-image: linear-gradient(rgba(24, 24, 24, 0.9), rgba(24, 24, 24, 0.72)), url(../image/house3.jpg);
     background-repeat: no-repeat;
     background-position-y: bottom;
@@ -821,7 +821,7 @@ img.img4 {
     margin-top: 0px;
 }
 .map {
-    margin: auto;
+    margin-left: 250px;
 }
 .map img {
     position: relative;
