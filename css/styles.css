@@ -733,7 +733,7 @@ img.img4 {
     width: 720px;
 }
 .block7>.container {
-    background-image: linear-gradient(rgba(24, 24, 24, 0.9), rgba(24, 24, 24, 0.72)), url(../images/building.png);
+    background-image: linear-gradient(rgba(24, 24, 24, 0.9), rgba(24, 24, 24, 0.72)), url(../image/house3.jpg);
     background-repeat: no-repeat;
     background-position-y: bottom;
     height: 953px;
@@ -775,4 +775,61 @@ img.img4 {
 }
 .question-inp input {
     border-bottom: 1px solid rgba(54, 54, 54, 0.3);
+}
+
+
+.question-form input::placeholder {
+    color: white;
+}
+.question-form>.agreeTo {
+    grid-column: 1/3;
+    margin: auto;
+    padding-top: 10px;
+}    
+.question {
+    width: 200px;
+    height: 51px;
+    font-family: Nunito;
+}
+.question-form>div:nth-of-type(5) {
+    grid-column: 1/3;
+    margin: auto;
+    padding-top: 40px;
+}
+.address {
+    display: grid;
+    grid-template-columns: 1fr;
+    position: relative;
+    bottom: 200px;
+    padding: 0px 280px;
+}
+.address div {
+    text-align: center;
+    padding-bottom: 25px;
+}
+.address>.mail__insta img {
+    position: relative;
+    top: 20px;
+}
+.address p {
+    text-align: center;
+    font-family: 'Yeseva One';
+    font-size: 20px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #E3B873;
+    margin-top: 0px;
+}
+.map {
+    margin: auto;
+}
+.map img {
+    position: relative;
+    bottom: 180px;
+}
+.map_smallscreen {
+    display: none;
+}
+.footer {
+        background-color: black
 }
