@@ -11,7 +11,7 @@ body * {
     display: flex;
 }
 .logo {
-color: #E3B873;
+    color: #E3B873;
 }
 .button {
     font-size: 11px;
@@ -20,7 +20,7 @@ color: #E3B873;
     border: none;
     color: rgb(255, 255, 255);
     cursor: pointer;
-    }
+}
 .header {
     background-color: black;
 }
@@ -104,12 +104,6 @@ h1 {
     border: 1px solid white;
     background: none;
 }
-
-
-
-
-
-
 .block2 {
     background-color: #131313;
     padding-bottom: 400px; 
@@ -299,10 +293,9 @@ h3 {
   }
   
 .play {
-    background-image: url("../image/play.svg");
     position: relative;
-    top: 150px;
-    left: 343px;
+    margin-top: 150px;
+    margin-left: 343px;
 }
 
 hr {
@@ -808,6 +801,10 @@ img.img4 {
     background-position-y: bottom;
     height: 953px;
 }
+.block7>.container {
+    display: flex;
+    flex-direction: column;
+}
 .question-form {
     padding: 20px 150px;
     background-color: #181818;
@@ -921,9 +918,11 @@ img.img4 {
     text-decoration: none;
     color: white;
 }
-@media (max-width:1440px) {
-    .container{
-        width: 100%;
-        
+@media (max-width:1300px){
+    .cityback img {
+        width: 640px;
     }
-}
+    }
+
+
+
