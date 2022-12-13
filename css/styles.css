@@ -126,6 +126,9 @@ color: #E3B873;
    padding-top: 107px;
 
 }
+.tag1 li{
+list-style: none;
+}
 .tag1-item {
     color: rgba(227, 184, 115, 1);
     display: inline;
@@ -725,7 +728,6 @@ img.img4 {
 }
 .cityback {
     position: absolute;
-    top: 167px;
     display: flex;
 }
 .cityback img {
@@ -832,4 +834,22 @@ img.img4 {
 }
 .footer {
         background-color: black
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    height: 83px;
+    align-items: center;
+    white-space: nowrap;
+}    
+.footer-navigation {
+    list-style: none;
+    display: flex;
+}
+.footer-navigation_item {
+    margin-right: 47px;
+}
+.footer-navigation_item a {
+    text-decoration: none;
+    color: white;
 }
