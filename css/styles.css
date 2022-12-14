@@ -21,6 +21,9 @@ body * {
     color: rgb(255, 255, 255);
     cursor: pointer;
 }
+.appl1{
+    display: none;
+}
 .header {
     background-color: black;
 }
@@ -117,6 +120,9 @@ h1 {
 .completed-projects{
     display: flex;
     flex-direction: column;
+}
+.completed-projects-mobile{
+    display: none;
 }
 .title-projects {
     margin-bottom: 42px;
@@ -918,11 +924,124 @@ img.img4 {
     text-decoration: none;
     color: white;
 }
-@media (max-width:1300px){
-    .cityback img {
-        width: 640px;
+@media (max-width:768px) {
+    .header-navigation {
+        display: none;
+}
+.block1>.container {
+    padding: 55px 45px;
+    align-items: center;
+}
+
+.box__title {
+    padding-bottom: 10px;
+}
+
+.box-submit {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+.header-content{
+    padding: 0px 18px;
+    height: 57px;
+    justify-content: space-between;
+}
+.request{
+    display: none;
+}
+.logo {
+    font-size: 11px;
+}
+.tel {
+    align-self: center;
+    color: #FFFFFF;
+    font-size: 11px;
+    text-decoration: none; 
+}
+.header nav {
+    display: none;
+}
+.main__banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.66), rgba(0, 0, 0, 0.66)), url(../image/block1-smal.jpg);
+    height: 395px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+.calculate {
+    width: 338px;
+}
+.appl {
+    display: none;
+}
+.appl1 {
+    height: 51px;
+    border: 1px solid white;
+    background: none;
+    display: inline;
+}
+.block2 {
+    padding-bottom: 30px;
+}
+.block2>.container {
+    flex-direction: column;
+    padding: 36px 18px;
+    align-items: center;
+}
+.completed-projects {
+    align-items: center;
+}
+.title-projects {
+    margin-bottom: 20px;
+}
+.title-projects h2 {
+    font-size: 22px;
+    text-align: center;
+    line-height: 30px;
+}
+.title-projects p {
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: 26px;
+    text-align: center;
+}
+.completed-projects-mobile {
+    display: flex;
+    background-image: url(../image/block2-mobile.jpg);
+    width: 748px;
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    justify-content: space-between;
+    align-items: center;
+}
+.block_arrows{
+    display: none;
+}
+.projects-photo {
+    display: none;
+}
+.tag1 {
+    margin-top: 10px;
+    padding: 0px 5px;
+    row-gap: 45px;
+    column-gap: 54px;
+}
+.tag1 h3 {
+    font-size: 18px;
+    line-height: 19px;
+    padding-bottom: 15px;
+}
+.tag1 div span {
+    font-size: 14px;
+    line-height: 15px;
+}
+
     }
-    }
+    
+    
 
 
 
