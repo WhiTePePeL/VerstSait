@@ -1462,8 +1462,14 @@ h1 {
     top: 0px;
     background-color: #181818;
 }
-.present {
-    padding-bottom: 55px;
+
+.repair__type >.price {
+    top: 455px;
+    left: 0px;
+    font-size: 15px;
+    width: 190px;
+    height: 40px;
+    padding: 5px 5px;
 }
 }
 
