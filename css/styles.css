@@ -258,9 +258,9 @@ h3 {
     text-transform: uppercase;
     color: rgba(255, 255, 255, 0.3);
 }
-
-
-
+.play-mobile {
+    display: none;
+}
 .oncontrl {
     font-style: normal;
     font-weight: 400;
@@ -310,15 +310,10 @@ hr {
     margin-top: 62px;
 }
 .text-block3 {
-    font-style: normal;
-    font-weight: 400;
     font-size: 18px;
     line-height: 37px;
     text-align: center;
-    display: flex;
-    justify-content: center;
-    width: 681px;
-    margin: auto;
+    padding: 0px 180px
 }
 .sub {
     width: 200px;
@@ -456,10 +451,9 @@ label.checkbox {
     padding-bottom: 100px;
   }
 .block4 {
-    display: flex;
-    flex-direction: column;
-    padding: 129px 0px 0px;
-    align-items: center;}
+    position: relative;
+    bottom: 329px;
+}
 
 .title-block4 ul {
     padding-left: 10px;
@@ -486,6 +480,7 @@ label.checkbox {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 129px 0px 0px;
 }
 .price {
     background-color: #E3B873;
@@ -625,7 +620,6 @@ label.checkbox.white {
 .piggy {
     align-self: end;
     margin: 15px 258px;
-    padding-bottom: 400px
 }
 .piggy div {
     display: flex;
@@ -1294,8 +1288,184 @@ label.checkbox {
 .map {
      margin-left: 0;
 }
-
-
-
 }
+
+@media (min-width:375px) and (max-width: 414px) {
+.block1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.66), rgba(0, 0, 0, 0.66)), url(../image/block1-smal.jpg);
+    height: 476px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+.completed-projects-mobile {
+    width: 375px;
+    height: 450px;
+       
+}    
+
+.block1>.container {
+    padding: 85px 18px;
+    height: 476px;
+    align-items: flex-start;
+}
+h1 {
+    font-size: 23px;
+    line-height: 31px;
+}
+.box-title {
+    padding-bottom: 16px;
+}
+.box-text {
+    font-size: 14px;
+    line-height: 19px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 71px;
+}
+.box-submit {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+.block2 {
+    padding-bottom: 30px;
+}
+.block2>.container {
+    flex-direction: column;
+    padding: 36px 32px;
+    align-items: center;
+}
+.title-projects {
+    margin-bottom: 36px;
+}
+.title-projects  p {
+    font-size: 11px;
+    line-height: 17px;
+    padding-top: 26px;
+    text-align: center;
+}
+.completed-projects-mobile {
+    display: flex;
+    width: 340px;
+    height: 241px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    justify-content: space-between;
+    align-items: center;
+}
+.completed-projects-mobile img {
+    width: 36px;
+    height: 36px;
+    margin: 10px 14px;
+}
+.tag1 {
+    margin-top: 40px;
+    padding: 0px 5px;
+}
+.tag1 h3 {
+    font-size: 14px;
+    line-height: 19px;
+    padding-bottom: 10px;
+}
+.tag1 div span {
+    font-size: 11px;
+    line-height: 15px;
+}
+.jub {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76)), url(../image/block3-small.jpg);
+    width: 340px;
+    height: 207px;
+    background-repeat: no-repeat;
+}
+.play {
+    display: none;
+}
+.play-mobile {
+    display: block;
+    margin-left: 120px;
+    margin-top: 55px;
+}
+.block3 p {
+    font-size: 11px;
+    line-height: 19px;
+    padding: 0px 0px;
+    color: rgb(255, 255, 255);
+}
+.block3 {
+    margin-top: 0px;
+}
+.text-block3 { 
+    font-size: 11px;
+    line-height: 19px;
+    padding: 0px 0px;
+    color: rgb(255, 255, 255);
+}
+.block3 {
+    flex-direction: column;
+    padding: 0px 18px;
+    align-items: center;
+}
+.mobile5{
+    position: relative;
+    top: 121px;
+}
+.mobile5 > .container {
+    padding: 0px 18px;
+}
+.fantasies-mobile {
+    display: flex;
+    width: 340px;
+    height: 241px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    justify-content: space-between;
+    align-items: center;
+}
+.fantasies {
+        gap: 0px;
+}
+.block7>.container {
+    padding: 100px 18px;
+    background-image: none;
+    background-color: #181818;
+    height: auto;
+    align-items: center;
+}
+.question-form {
+    padding: 70px 0px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    transform: translate(0px, -10px);
+    position: relative;
+    bottom: 0px;
+    background: none;
+}
+.address {
+    display: grid;
+    grid-template-columns: 1fr;
+    position: relative;
+    top: 35px;
+    order: 2;
+    background-color: #181818;
+    padding: 0px 5px;
+}
+.map {
+    display: none;
+}
+.map_smallscreen {
+    order: 1;
+    display: block;
+    position: relative;
+    top: 0px;
+    background-color: #181818;
+}
+.present {
+    padding-bottom: 55px;
+}
+}
+
+
 
