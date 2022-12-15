@@ -1473,5 +1473,26 @@ h1 {
 }
 }
 
+@media (max-width:1300px) { 
+
+.header-navigation {
+    display: none;
+}
+.footer-navigation{
+    display: none;
+}
+.map img {
+    display: none;
+}
+.cityback {
+    display: none;
+}
+.block7 {
+    height: 540px;
+}
+}
+
+
+
 
 
