@@ -1290,7 +1290,7 @@ label.checkbox {
 }
 }
 
-@media (min-width:375px) and (max-width: 414px) {
+@media (min-width:375px) and (max-width: 485px) {
 .block1 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.66), rgba(0, 0, 0, 0.66)), url(../image/block1-smal.jpg);
     height: 476px;
@@ -1814,6 +1814,9 @@ label.checkbox {
 .completed-projects-mobile {
     width: 400px;
     height: 250px;
+}
+.block3 {
+    margin-top: -300px;
 }
 .jub {
     width: 400px;
